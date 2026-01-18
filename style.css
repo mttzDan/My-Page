@@ -19,17 +19,37 @@ section {
 
 h1 {
     font-size: 2.5rem; /* rem es una medida basada en el tamaño de fuente del elemento raíz */
-font-family: "Tomorrow", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
+
+.dark-section {
+    background-color: #150f31; /* Color de fondo oscuro */
+    color: #ffffff; /* Color de texto claro */
+    padding: 4rem; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+}
+
+.title-section {
+    font-size: 2rem;
+    margin-top: 5rem;
+    padding: 15px, 0;
+    font-family: "Tomorrow", sans-serif;
+}
+
+.text-section {
+    font-size: 1.2rem;
+    padding: 10px 0;
+    margin-bottom: 2rem;
+}
+
 
 /* Sección Hero */
 .hero   {
     background-color: #f5f6f5;
     min-height: 450px;
     text-align: center;
-
 }
 
 .main-hero{
@@ -48,13 +68,27 @@ font-family: "Tomorrow", sans-serif;
     font-size: 1.5rem;
     color: blueviolet;
 }
+/* About me CSS */
+.about-me {
+    height: 300px;
+    padding: 10px;
+}
+
+.about-me .personal-container{ /* Regla para el contenedor personal dentro de la sección About Me */
+    max-width: 600px;
+    text-align: center;
+}
+
+
+
+
 
 
 /* Una media query para que a partir de tamaños donde la barra se contrae el logotipo no se muestra */
 @media screen and (max-width: 767px) {
     .navbar-brand {
         display: none;
-    }
+    } 
 }
 
 /* Media query para imágenes secundarias en la sección hero */
