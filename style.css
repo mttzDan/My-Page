@@ -1,0 +1,17 @@
+/* Personalización de la Navbar */
+.navbar {
+    padding: 2rem;  
+    background-color: #e9d990; /* Color de fondo oscuro */
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between  ;
+}
+
+
+/* Una media query para que a partir de tamaños donde la barra se contrae el logotipo no se muestra */
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
