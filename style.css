@@ -1,11 +1,52 @@
 /* Personalización de la Navbar */
 .navbar {
     padding: 2rem;  
-    background-color: #e9d990; /* Color de fondo oscuro */
+    background-color: #ddbd8297; /* Color de fondo oscuro */
 }
 .navbar-collapse {
     align-items: center;
     justify-content: space-between  ;
+}
+
+/* Estilos generales */
+/* Se define aqui y no en bootstrap porque habrá varias secciones */
+section {
+    display: flex; /* Los elementos hijos de cada sección se comportan como flexibles */
+    flex-direction: column;
+    align-items: center; /* Centra los elementos hijos horizontalmente */
+    justify-content: center; /* Centra los elementos hijos perpendicularmente, en este caso es vertical */
+}
+
+h1 {
+    font-size: 2.5rem; /* rem es una medida basada en el tamaño de fuente del elemento raíz */
+font-family: "Tomorrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Sección Hero */
+.hero   {
+    background-color: #f5f6f5;
+    min-height: 450px;
+    text-align: center;
+
+}
+
+.main-hero{
+    padding: 3rem;
+}
+
+.developer-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+    margin: 1.5rem;
+}
+
+.main-hero h2 {
+    font-size: 1.5rem;
+    color: blueviolet;
 }
 
 
@@ -14,4 +55,16 @@
     .navbar-brand {
         display: none;
     }
+}
+
+/* Media query para imágenes secundarias en la sección hero */
+@media screen and (min-width: 700px) { 
+    .secondary-hero-img {
+        max-width: 600px;
+    }
+    .secondary-hero-img {
+        width: 600px;
+        height: auto;
+    }
+    
 }
