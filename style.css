@@ -212,7 +212,58 @@ h1 {
     margin: 10px;
 }
 
+/* Testimonios */
 
+.Testimonios {
+    padding: 40px 40px 80px 40px;
+}
+.Testimonios .carousel {
+    max-width: 800px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.review-img {
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 20px 10px;
+}
+
+.testimonio-texto {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.testimonio-info {
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.testimonio-info p {
+    margin-bottom: 0; 
+}
+
+.testimonio-info .cliente {
+    font-size: 1.2rem;
+}
+.testimonio-info .cargo {
+    font-size: 1rem;
+    color: gray;
+}
 
 /* Una media query para que a partir de tamaños donde la barra se contrae el logotipo no se muestra */
 @media screen and (max-width: 767px) {
@@ -238,4 +289,13 @@ h1 {
     .overlay i {
         font-size: 1.5rem;
     }  
+}
+@media screen and (max-width: 800px) {
+    .review-img {
+        width: 120px;
+        height: 120px;
+    }
+    .testimonio-texto {
+        font-size: 18px;
+    }
 }
