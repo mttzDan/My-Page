@@ -27,7 +27,7 @@ h1 {
 .dark-section {
     background-color: #150f31; /* Color de fondo oscuro */
     color: #ffffff; /* Color de texto claro */
-    padding: 4rem; /* Espaciado interno */
+    padding: 2rem; /* Espaciado interno */
     text-align: center; /* Centra el texto */
 }
 
@@ -40,9 +40,11 @@ h1 {
 
 .title-section {
     font-size: 2rem;
-    margin-top: 5rem;
-    padding: 15px, 0;
+    margin-top: 25px;
+    padding-top: 0;
     font-family: "Tomorrow", sans-serif;
+    text-align: center;
+    justify-content: center;
 }
 
 .text-section {
@@ -80,6 +82,7 @@ h1 {
 .main-hero h2 {
     font-size: 1.5rem;
     color: blueviolet;
+    padding-top: 20px;
 }
 /* About me CSS */
 .about-me {
@@ -264,6 +267,61 @@ h1 {
     font-size: 1rem;
     color: gray;
 }
+
+/* Contacto */
+
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangle { /* Es una propiedad que agregué al contenedor para hacer una "Pildora" donde estará la info */
+    margin-top: -5rem; /* Cuando el margen es negativo se combinan las secciones */
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 1px 4px 1px white;
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-content: center;
+}
+
+.contacto .description {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button i {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.contacto button:hover i {
+    color: black;
+}
+
+/* Responsividad */
 
 /* Una media query para que a partir de tamaños donde la barra se contrae el logotipo no se muestra */
 @media screen and (max-width: 767px) {
