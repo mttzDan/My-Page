@@ -25,8 +25,8 @@ h1 {
 }
 
 .dark-section {
-    background-color: #150f31; /* Color de fondo oscuro */
-    color: #ffffff; /* Color de texto claro */
+    background-color: #ddbd8297; /* Color de fondo oscuro */
+    color: #000000; /* Color de texto claro */
     padding: 2rem; /* Espaciado interno */
     text-align: center; /* Centra el texto */
 }
@@ -46,6 +46,8 @@ h1 {
     text-align: center;
     justify-content: center;
 }
+
+
 
 .text-section {
     font-size: 1.2rem;
@@ -81,7 +83,7 @@ h1 {
 
 .main-hero h2 {
     font-size: 1.5rem;
-    color: blueviolet;
+    color: rgb(0, 0, 0);
     padding-top: 20px;
 }
 /* About me CSS */
@@ -321,6 +323,65 @@ h1 {
     color: black;
 }
 
+#Contact-title{
+    color: white;
+}
+
+/* Footer */
+
+footer {
+    min-height: 500px;
+}
+
+.footer-icon {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.text-footer {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-style: italic;
+    color: black;
+}
+
+.social-media a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+    transition: all 0.3s ease-in;
+
+}
+
+.social-media i {
+    color: black;
+    font-size: 1.5rem;
+    transition: all 0.3s ease-in;
+}
+
+.social-media a:hover {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.social-media a:hover i {
+    color: rgb(255, 255, 255);
+}
+
+.Derechos {
+    font-size: 15px;
+    color: black;
+    padding: 20px;
+}
+
 /* Responsividad */
 
 /* Una media query para que a partir de tamaños donde la barra se contrae el logotipo no se muestra */
@@ -355,5 +416,5 @@ h1 {
     }
     .testimonio-texto {
         font-size: 18px;
-    }
+    } 
 }
