@@ -36,22 +36,21 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <a class="navbar-brand" href="#">
-                    <img src="/images/fav-icon.png" alt="Logo del sitio" width="30" ">
-      </a>
-      <ul class=" navbar-nav d-flex justify-content-center align-items-center">
+                    <img src="/images/fav-icon.png" alt="Logo del sitio" width="30" "></a>
+                    <ul class=" navbar-nav d-flex justify-content-center align-items-center">
                     <!-- Modificamos esto para centar los elementos del navbar cuando se despliega -->
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
+                        <a class="nav-link active" aria-current="page" href="#Aboutme">Sobre mí</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Proyectos</a>
+                        <a class="nav-link disabled" href="#Projects">Proyectos</a>
                         <!-- Agrego enlace deshabilitado porque sigo construyendo proyectos para mostrar más adelante-->
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonios</a>
+                        <a class="nav-link" href="#Reviews">Testimonios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#Contact">Contacto</a>
                     </li>
                     </ul>
             </div>
@@ -74,7 +73,7 @@
     </section>
 
     <!-- Sección About Me -->
-    <section class="about-me dark-section"> <!-- Clases que voy a reutilizar en el diseño -->
+    <section id="Aboutme" class="about-me dark-section"> <!-- Clases que voy a reutilizar en el diseño -->
         <div class="personal-container"> <!-- Clase personalizada para el contenedor -->
             <h2 class="title-section white-color">Sobre mí</h2> <!-- Clase personalizada para el título de sección -->
             <p class="text-section">Soy un desarrollador Jr Fullstack con pasión por crear soluciones web innovadoras.
@@ -148,7 +147,7 @@
     </section>
 
     <!-- Proyectos  -->
-    <section class="recent-projects light-section d-flex flex-column">
+    <section id="Projects" class="recent-projects light-section d-flex flex-column">
         <h2 class="title-section black-text">Mis proyectos recientes</h2>
         <h3 class="Description-section">Esto es parte de lo que he trabajado recientemente </h3>
 
@@ -293,7 +292,7 @@
     </section>
 
     <!-- Testimonios -->
-    <section class="Testimonios light-section">
+    <section id="Reviews" class="Testimonios light-section">
         <h2 class="title-section">Testimonios</h2>
         <h3 class="Desciption-section ">Estos son algunos testimonios sobre mi trayectoria</h3>
         <!-- Carousel -->
@@ -349,7 +348,7 @@
     </section>
 
     <!-- Contacto -->
-    <section class="contacto dark-section">
+    <section id="Contact" class="contacto dark-section">
         <div class="container">
             <div class="container rectangle text-center d-flex justify-content-evenly">
                 <div class="row">
