@@ -51,6 +51,12 @@ h1 {
     margin-bottom: 2rem;
 }
 
+.btn-info {
+    font-size: 1.2rem;
+    margin: 20px;
+
+
+}
 
 /* Sección Hero */
 .hero   {
@@ -130,6 +136,81 @@ h1 {
 }
 
 
+/* Proyectos */
+
+.recent-projects {
+    padding: 40px;
+
+}
+
+.black-text {
+    color: #000000;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.Description-section {
+    font-size: 1.2rem;
+    color: rgb(24, 51, 51);
+}
+
+.recent-projects img {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 29px;
+    display: block; /* Display hace que las imagenes se muestren como bloques*/
+    transition: all 0.3s ease; /* ease crea una transición suave */
+}
+
+.container-projects {
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+.overlay {
+    transition: all 0.2 ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.overlay p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+    
+}
+
+.project {
+    position: relative;
+    display: inline-block;
+}
+
+.project:hover img {
+    opacity: 0.2;
+
+}
+.project:hover .overlay {
+    opacity: 1;
+
+}
+
+.overlay .container-icons {
+    display: flex;
+}
+
+.overlay i{
+    color: #000000;
+    font-size: 2rem;
+    margin: 10px;
+}
 
 
 
@@ -148,6 +229,13 @@ h1 {
     .secondary-hero-img {
         width: 600px;
         height: auto;
+    }   
+}
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
     }
-    
+    .overlay i {
+        font-size: 1.5rem;
+    }  
 }
