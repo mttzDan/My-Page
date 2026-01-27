@@ -1,7 +1,7 @@
 /* Personalización de la Navbar */
 .navbar {
     padding: 2rem;  
-    background-color: #ddbd8297; /* Color de fondo oscuro */
+    background-color: #82c3dd97; /* Color de fondo oscuro */
 }
 .navbar-collapse {
     align-items: center;
@@ -25,7 +25,7 @@ h1 {
 }
 
 .dark-section {
-    background-color: #ddbd8297; /* Color de fondo oscuro */
+    background-color: #829fdd97; /* Color de fondo oscuro */
     color: #000000; /* Color de texto claro */
     padding: 2rem; /* Espaciado interno */
     text-align: center; /* Centra el texto */
@@ -118,7 +118,7 @@ h1 {
 .experience i {
     font-size: 2.5rem;
     color: #150f31;
-    background-color: #ddbd8297;
+    background-color: #82c3dd97;
     border-radius: 50%;
     padding: 7px 15px; /* Padding para hacer redondo el ícono */
 }
@@ -186,8 +186,11 @@ h1 {
 
 }
 
+
+
+
 .overlay p{
-    font-size: 25px;
+    font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 0;
     
@@ -196,6 +199,7 @@ h1 {
 .project {
     position: relative;
     display: inline-block;
+
 }
 
 .project:hover img {
